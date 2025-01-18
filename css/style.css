@@ -1,0 +1,192 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* Header container */
+#header .top_header_area {
+  background-color: #ea526f; 
+  position: relative;
+}
+
+/* Navigation bar */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 64px;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile menu button */
+.mobile-bar {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+/* Desktop menu styling */
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu li {
+  font-size: 16px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  font-weight: bold;
+}
+
+/* Mobile dropdown menu */
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #ea526f; /* Blue background */
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 10;
+  margin: 10px;
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.dropdown-menu a {
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+/* Show the dropdown menu when toggled */
+.dropdown-menu.show {
+  display: flex;
+}
+
+#card_area {
+  background: #f7f7f7;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+#pricing_section {
+  background: #f7f7f7;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#about {
+  background: #f7f7f7;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#about ul li {
+  list-style: circle;
+}
+
+#contact {
+  display: flex;
+  justify-content: center; /* Centers the form horizontally */
+  padding: 20px; /* Adds space around the form */
+  background: #eeeeee;
+}
+
+#contact form {
+  width: 100%; /* Sets the form width to 80% of its parent container */
+  max-width: 600px; /* Ensures the form doesn't grow too large on wide screens */
+  background-color: #f9f9f9; /* Light background for the form */
+  padding: 20px; /* Space inside the form */
+  border-radius: 8px; /* Rounds the corners of the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+#contact input {
+  margin-bottom: 20px;
+}
+
+#contact label {
+  font-weight: bold; /* Highlights the labels */
+  margin-bottom: 8px; /* Adds space below labels */
+}
+
+#contact .form-control,
+#contact .form-check-input {
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: 4px; /* Rounds input corners */
+}
+
+#contact .btn {
+  background-color: #007bff; /* Button color (Bootstrap Primary) */
+  color: white; /* Button text color */
+  width: 100%; /* Makes the button span full width */
+  padding: 10px; /* Button padding */
+  border: none; /* Removes default border */
+  border-radius: 4px; /* Rounds button corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#contact .btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+#accordion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  background: #ececec;
+  padding: 20px;
+}
+
+.accordion {
+  width: 85%;
+}
+
+#footer {
+  background: #ea526f;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap 5.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <!-- Font Aweasome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Wanderlust Adventures</title>
+</head>
+
+<body>
+  <!-- Navigation Menu -->
+  <header id="header">
+    <div class="top_header_area">
+      <nav class="nav-container">
+        <div class="logo">
+          Wanderlust Adventures
+        </div>
+        <div id="mobile_bar" class="mobile-bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Service</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+        <!-- Mobile Dropdown Menu -->
+        <ul id="dropdown_menu" class="dropdown-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Service</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <!-- Slider Area -->
+  <section id="slider">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://lh5.googleusercontent.com/p/AF1QipPJA1W3rAPK3xAArAOtYdTMu5rgRDbkTAotGV3t=w594-h343-n-k-no"
+            class="d-block w-100" style="height: 800px;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://lh6.googleusercontent.com/proxy/VSDBMeOlHFia1rVgjtrzdD42kC-HsycxOoAOJ_VCsdrf1eGyS8-438Q3d5ZNb2nr8rNFxLRn6010qqIibO88yCK8tSWGlI9c4nZ4SpC3OuHk_771MhIgkGMUPNdhXZ3ytMcfVc54246Fipdt8_4UvcyhIAcAkKg=w594-h343-n-k-no"
+            style="height: 800px;" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTZsWkz4K1sRdbahyPeXdQc2RS6jW4YBYblxdPM90eHXb3I08T22VVpbpmwIcLnWV3Y0IDY-D1n3oAUIeqOLOJBBZ2NE_wim5vA6kI1pw"
+            class="d-block w-100" style="height: 800px;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQnkq5wR3aEBYLKs4bjiQN-HHQQIsKCZLXILess-t-IeMrsn9eC9gz5Twi3YyttX_1LepahVzPqI-E9h4iDBdXPnVN_OdTGfI3E1Ep3rg"
+            class="d-block w-100" style="height: 800px;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRMnCfk4jb4U4bg1qn_i_t_-N3JcZLJp_3yZ89gyRftAd_HlBkoQqISA7ZWub1KjNAsMedKj4aKxXGdQyBXUDdIRXGfzR0GVlzg8Wlaxg"
+            class="d-block w-100" style="height: 800px;" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Card Area -->
+  <section id="card_area">
+    <div class="card1">
+      <div class="card" style="width: 20rem;">
+        <img src="https://lh5.googleusercontent.com/p/AF1QipPJA1W3rAPK3xAArAOtYdTMu5rgRDbkTAotGV3t=w594-h343-n-k-no"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">London</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://lh6.googleusercontent.com/proxy/VSDBMeOlHFia1rVgjtrzdD42kC-HsycxOoAOJ_VCsdrf1eGyS8-438Q3d5ZNb2nr8rNFxLRn6010qqIibO88yCK8tSWGlI9c4nZ4SpC3OuHk_771MhIgkGMUPNdhXZ3ytMcfVc54246Fipdt8_4UvcyhIAcAkKg=w594-h343-n-k-no"
+          class="d-block w-100" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paris</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card3">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTZsWkz4K1sRdbahyPeXdQc2RS6jW4YBYblxdPM90eHXb3I08T22VVpbpmwIcLnWV3Y0IDY-D1n3oAUIeqOLOJBBZ2NE_wim5vA6kI1pw"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Berlin</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card4">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQnkq5wR3aEBYLKs4bjiQN-HHQQIsKCZLXILess-t-IeMrsn9eC9gz5Twi3YyttX_1LepahVzPqI-E9h4iDBdXPnVN_OdTGfI3E1Ep3rg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">New York</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card3">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRMnCfk4jb4U4bg1qn_i_t_-N3JcZLJp_3yZ89gyRftAd_HlBkoQqISA7ZWub1KjNAsMedKj4aKxXGdQyBXUDdIRXGfzR0GVlzg8Wlaxg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Egypt</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing_section" class="pricing-section py-5">
+    <div class="container text-center">
+      <!-- Section Header -->
+      <h2 class="mb-3">Choose Your Plan</h2>
+      <p class="text-muted mb-5 ">Affordable travel packages tailored to your needs.</p>
+
+      <!-- Pricing Cards -->
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 border-primary">
+            <div class="card-header bg-primary text-white">
+              Basic Plan
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">$199</h5>
+              <p class="card-text">Perfect for budget travelers.</p>
+              <ul class="list-unstyled">
+                <li>3 days, 2 nights</li>
+                <li>Hotel stay included</li>
+                <li>Guided tours</li>
+              </ul>
+              <a href="#" class="btn btn-primary mt-3">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 border-success">
+            <div class="card-header bg-success text-white">
+              Standard Plan
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">$399</h5>
+              <p class="card-text">Best value for your money.</p>
+              <ul class="list-unstyled">
+                <li>5 days, 4 nights</li>
+                <li>Premium hotel stay</li>
+                <li>All meals included</li>
+              </ul>
+              <a href="#" class="btn btn-success mt-3">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 border-warning">
+            <div class="card-header bg-warning text-dark">
+              Premium Plan
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">$699</h5>
+              <p class="card-text">Luxury experience for elite travelers.</p>
+              <ul class="list-unstyled">
+                <li>7 days, 6 nights</li>
+                <li>5-star hotel stay</li>
+                <li>Private guided tours</li>
+              </ul>
+              <a href="#" class="btn btn-warning mt-3">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us section -->
+  <section id="about" class="about-us py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Image Column -->
+        <div class="col-md-6">
+          <img src="about.webp" style="height: 555px;" alt="About Us Image" class="img-fluid rounded">
+        </div>
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <h2 class="mb-4">About Us</h2>
+          <p class="text-muted mb-4">
+            Welcome to Wanderlust Adventures, where dreams of exploring the world come to life. We are a team of
+            passionate travel
+            enthusiasts dedicated to crafting unforgettable journeys for our clients.
+
+            With over a decade of experience in the travel industry, we specialize in creating personalized itineraries
+            that cater
+            to every traveler's unique preferences. From serene beach getaways to thrilling mountain adventures, our
+            curated
+            packages are designed to offer the perfect blend of comfort, excitement, and authenticity.
+
+            At Wanderlust Adventures, we believe that travel is more than just visiting new places—it's about
+            discovering new
+            perspectives, creating lifelong memories, and connecting with the world around you. Our commitment to
+            excellence is
+            reflected in every aspect of our service, from handpicked accommodations to guided tours led by seasoned
+            professionals.
+          </p>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Expertise You Can Trust: With a network of
+              global partners and in-depth knowledge of destinations, we ensure seamless
+              travel experiences.</li>
+            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Tailored Experiences: Every trip is customized
+              to match your interests, budget, and schedule.</li>
+            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> 24/7 Support: Our dedicated team is always
+              available to assist you, ensuring peace of mind throughout your journey.</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary mt-4">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accordon Area -->
+  <section id="accordion">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            1. What types of travel packages do you offer?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            We offer diverse travel packages to suit various preferences and budgets. Options include budget-friendly
+            plans for
+            cost-conscious travelers, standard packages offering balanced comfort, and luxury plans with premium
+            experiences.
+            Whether you're seeking a short weekend getaway or an extended international adventure, we provide tailored
+            options to
+            meet your needs.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+            aria-expanded="false" aria-controls="collapseTwo">
+            2. Can I customize my travel itinerary?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Absolutely! We specialize in crafting personalized itineraries that cater to your unique interests,
+            preferences, and
+            budget. Whether you're planning a solo adventure, a family vacation, or a romantic getaway, our team ensures
+            every
+            detail is tailored to your needs. From selecting destinations and accommodations to arranging activities and
+            transportation, we handle everything to create a seamless travel experience. Our goal is to make your trip
+            memorable and
+            stress-free by considering your tastes and ensuring all arrangements align perfectly with your expectations.
+            Let us help
+            you design the perfect journey, where every moment reflects your vision of an ideal vacation.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            3. What is included in the travel packages?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Our travel packages are designed to provide convenience and value, including essential elements like
+            accommodations,
+            transportation, guided tours, and selected meals. Each package is thoughtfully curated to ensure a seamless
+            and
+            enjoyable experience. While the specific inclusions may vary depending on the plan you choose, we prioritize
+            offering
+            the best options tailored to your preferences. From comfortable stays to reliable transport and immersive
+            tours, our
+            goal is to deliver a hassle-free journey. Additional features or customization options may also be
+            available, allowing
+            you to personalize your trip further. Choose the plan that best suits your needs and travel worry-free!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Username</label>
+        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+
+  <footer id="footer">
+    <p>&copy; 2025 Wanderlust Adventures. All rights reserved.</p>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>

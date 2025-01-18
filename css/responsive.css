@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+  /* Mobile Menu */
+  .menu {
+    display: none;
+  }
+  .mobile-bar {
+    display: block;
+  }
+
+  /* Card Style */
+  #card_area {
+    flex-direction: column;
+  }
+
+  /* About us */
+  .col-md-6 img {
+    margin-bottom: 15px;
+  }
+}
